@@ -1,0 +1,29 @@
+/* Newsletter */
+#newsletter {
+    padding: 5vh 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6EBF7;
+}
+
+#newsletter > p {
+    margin: 15px auto;
+}
+
+.newsletter-form > input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.newsletter-form > input[type=email] {
+    padding: 7.5px 7px;
+}
+
+.newsletter-form > input[type=button] {
+    padding: 7.5px 10px;
+    background-color: #5573B7;
+    color: white;
+    cursor: pointer;
+}

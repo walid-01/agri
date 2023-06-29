@@ -1,8 +1,17 @@
+:root {
+  --main-color: #0063AD;
+}
+
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 li, a {
   text-decoration: none;
+}
+
+a {
+  color: black;
 }

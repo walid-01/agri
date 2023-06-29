@@ -1,0 +1,49 @@
+/* WELCOME */
+#welcome {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.welcome-part {
+    width: 45%;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-text > h1 {
+    font-size: 38px;
+}
+
+.welcome-text > p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.welcome-text > button {
+    border: none;
+    background-color: #5573B7;
+    color: white;
+    height: 40px;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 2.5px;
+}
+
+.welcome-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome-img > img {
+    width: 100%; 
+    height: auto; 
+}

@@ -1,0 +1,37 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.useful-links {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px auto 50px auto;
+}
+
+.links-grp {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-grp > h3 {
+    margin-bottom: 12.5px;
+}
+
+.links-grp > a {
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.links-grp > a:hover {
+    color: #5573B7;
+}
+
+.copyright-container {
+    background-color: #E6EBF7;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}

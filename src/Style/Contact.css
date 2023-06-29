@@ -1,0 +1,68 @@
+/* Contact */
+#contact {
+    padding: 5vh 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact > h1 {
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.contact-info-item {
+    margin: 10px auto;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.contact-email input, .contact-email textarea {
+    padding: 5px 10px;
+    border: 1px #d4d4d4 solid;
+    border-radius: 2.5px;
+}
+
+.contact-email input:focus, .contact-email textarea:focus {
+    border: 1px #5573B7 solid;
+    outline: none;
+}
+
+.contact-email textarea {
+    resize: vertical;
+    min-height: 75px;
+}
+
+.contact-email input[type=text], .contact-email input[type=email] {
+    height: 35px;
+}
+
+.email-submit-btn {
+    background-color: #5573B7;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.contact-email-name-email {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+}
+
+.contact-email-name-email > input {
+    width: 50%;
+}

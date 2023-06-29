@@ -1,0 +1,28 @@
+#navbar {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2.5%;
+}
+
+.nav-logo img {
+    max-width: 70px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.nav-item {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:hover {
+    color: var(--main-color);
+}

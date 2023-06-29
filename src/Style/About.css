@@ -1,0 +1,27 @@
+/* About */
+#about {
+    padding: 10vh 15%;   
+    background-color: #E6EBF7;
+}
+
+.about-intro {
+    margin-bottom: 20px;
+}
+
+.about-intro > h1, .about-item > h2 {
+    margin-bottom: 5px;
+}
+
+.about-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-item {
+    width: 29%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 0 20px;
+    padding: 15px 20px;
+    height: 15vh;
+}

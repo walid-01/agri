@@ -1,0 +1,29 @@
+/* TEAM */
+#team {
+    padding: 5vh 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6EBF7;
+}
+
+.team-members {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.team-member {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+
+.member-img > img {
+    max-width: 15vw;
+    border-radius: 5px;
+}
+
+.member-text {
+    padding: 10px 15px;
+}
