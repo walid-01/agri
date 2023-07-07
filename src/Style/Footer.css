@@ -26,11 +26,11 @@
 }
 
 .links-grp > a:hover {
-    color: #5573B7;
+    color: var(--purple);
 }
 
 .copyright-container {
-    background-color: #E6EBF7;
+    background-color: var(--light-purple);
     width: 100%;
     text-align: center;
     padding: 20px 0;

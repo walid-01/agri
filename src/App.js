@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Games from "./Pages/Games";
+import Game from "./Pages/Game";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/games" exact element={<Games />} />
+          <Route path="/games/:cpu" exact element={<Game />} />
         </Routes>
         <Footer />
       </div>

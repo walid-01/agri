@@ -1,7 +1,7 @@
 /* About */
 #about {
     padding: 10vh 15%;   
-    background-color: #E6EBF7;
+    background-color: var(--light-purple);
 }
 
 .about-intro {
@@ -20,7 +20,7 @@
 
 .about-item {
     width: 29%;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: var(--lighter-purple);
     padding: 0 20px;
     padding: 15px 20px;
     height: 15vh;

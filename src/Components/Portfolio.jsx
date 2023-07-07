@@ -40,18 +40,18 @@ const Portfolio = () => {
         {(toggleState === 1 && (
           <div className="portfolio-items">
             <div className="portfolio-items-row">
-              <Link to="/game-01">
+              <Link to="/games/game-01">
                 <div className="portfolio-item">GAME 01</div>
               </Link>
-              <Link to="/game-02">
+              <Link to="/games/game-02">
                 <div className="portfolio-item">GAME 02</div>
               </Link>
             </div>
             <div className="portfolio-items-row">
-              <Link to="/game-03">
+              <Link to="/games/game-03">
                 <div className="portfolio-item">GAME 03</div>
               </Link>
-              <Link to="/game-04">
+              <Link to="/games/game-04">
                 <div className="portfolio-item">GAME 04</div>
               </Link>
             </div>
@@ -60,10 +60,10 @@ const Portfolio = () => {
           (toggleState === 2 && (
             <div className="portfolio-items">
               <div className="portfolio-items-row">
-                <Link to="/game-01">
+                <Link to="/games/game-01">
                   <div className="portfolio-item">GAME 01</div>
                 </Link>
-                <Link to="/game-02">
+                <Link to="/games/game-02">
                   <div className="portfolio-item">GAME 02</div>
                 </Link>
               </div>
@@ -72,10 +72,10 @@ const Portfolio = () => {
           (toggleState === 3 && (
             <div className="portfolio-items">
               <div className="portfolio-items-row">
-                <Link to="/game-03">
+                <Link to="/games/game-03">
                   <div className="portfolio-item">GAME 03</div>
                 </Link>
-                <Link to="/game-04">
+                <Link to="/games/game-04">
                   <div className="portfolio-item">GAME 04</div>
                 </Link>
               </div>

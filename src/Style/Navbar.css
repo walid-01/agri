@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 1vh 2.5%;
+    position: sticky;
+    top: 0;
+    background-color: var(--lighter-purple);
 }
 
 .nav-logo img {
@@ -24,5 +27,5 @@
 }
 
 .nav-item:hover {
-    color: var(--main-color);
+    color: var(--purple);
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "game-01",
+    "name": "The MechaniCT",
+    "description": "Description",
+    "image": "",
+    "tags": ["Educational", "Computational Thinking"]
+  },
+  {
+    "id": "game-02",
+    "name": "The Escapist",
+    "description": "An educational game to teach computational thinking concepts with the help of artificial intelligence techniques",
+    "image": "",
+    "showcase": ["", "", ""],
+    "tags": [
+      "Educational",
+      "Computational Thinking",
+      "Puzzle",
+      "Room Escape",
+      "Problem Solving"
+    ]
+  },
+  {
+    "id": "game-03",
+    "name": "**Name**",
+    "description": "Description",
+    "image": "",
+    "tags": ["", "", ""]
+  },
+  {
+    "id": "game-04",
+    "name": "**Name**",
+    "description": "Description",
+    "image": "",
+    "tags": ["", "", ""]
+  }
+]

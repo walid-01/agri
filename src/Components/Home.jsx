@@ -7,6 +7,8 @@ import Team from "./Team";
 import Contact from "./Contact";
 import Newsletter from "./Newsletter";
 
+import "../Style/Home.css";
+
 const Home = () => {
   return (
     <div id="home">

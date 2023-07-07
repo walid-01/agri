@@ -34,7 +34,7 @@
 }
 
 .contact-email input:focus, .contact-email textarea:focus {
-    border: 1px #5573B7 solid;
+    border: 1px var(--purple) solid;
     outline: none;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .email-submit-btn {
-    background-color: #5573B7;
+    background-color: var(--purple);
     color: white;
     height: 40px;
     width: 150px;

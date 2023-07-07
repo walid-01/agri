@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     padding: 5vh 15%;
-    background-color: #E6EBF7;
+    background-color: var(--light-purple);
 }
 
 #services > p, #services > h1 {
@@ -22,7 +22,7 @@
 }
 
 .services-item {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: var(--lighter-purple);
     padding: 20px;
     height: 75px;
     display: flex;
@@ -31,64 +31,3 @@
     border-radius: 5px;
 }
 
-#portfolio {
-    padding: 5vh 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.portfolio-content{
-    width: 100%;
-}
-
-.portfolio-navbar {
-    display: flex;
-    width: 25%;
-    justify-content: space-between;
-    margin: auto;
-    margin: 30px auto;
-}
-
-.portfolio-navbar > p {
-    cursor: pointer;
-}
-
-.portfolio-navbar > p:hover {
-    color: var(--main-color);
-}
-
-.portfolio-items {
-    height: 50vh;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.portfolio-items-row {
-    display: flex;
-    justify-content: space-between;
-    height: 50%;
-    width: 100%;
-}
-
-.portfolio-items-row > a {
-    width: 49%;
-}
-
-.portfolio-item {
-    border: 1px black solid;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.active-title {
-    color: var(--main-color);
-}
