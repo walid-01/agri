@@ -5,11 +5,13 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Games from "./Pages/Games";
 import Game from "./Pages/Game";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
