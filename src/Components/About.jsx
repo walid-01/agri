@@ -4,7 +4,9 @@ const About = () => {
   return (
     <div id="about">
       <div className="about-intro">
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <h1 style={{ fontFamily: "var(--title-font-family)" }}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
           quasi sed debitis deleniti, quisquam nemo impedit rerum deserunt illo

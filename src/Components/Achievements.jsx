@@ -3,7 +3,9 @@ import "../Style/Achievements.css";
 const Achievements = () => {
   return (
     <div id="achievements">
-      <h1>What we have achieved so far</h1>
+      <h1 style={{ fontFamily: "var(--title-font-family)" }}>
+        What we have achieved so far
+      </h1>
       <p>Our company represented with numbers</p>
       <div className="achievement-counter">
         <div className="counter">

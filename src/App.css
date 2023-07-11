@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Outfit&display=swap');
+
 :root {
   --light-purple: #E6EBF7;
   --lighter-purple: #F9FAFD;
   --purple: #5573B7;
+  --title-font-family: 'DM Sans', sans-serif;
+  --text-font-famimy: 'Outfit', sans-serif;
 }
 
 * {
   padding: 0;
   margin: 0;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
+  font-family: var(--text-font-famimy);
+  color: rgb(66, 66, 66);
 }
 
 li, a {

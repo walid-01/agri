@@ -3,7 +3,7 @@ import "../Style/Services.css";
 const Services = () => {
   return (
     <div id="services">
-      <h1>SERVICES</h1>
+      <h1 style={{ fontFamily: "var(--title-font-family)" }}>SERVICES</h1>
       <p>
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos

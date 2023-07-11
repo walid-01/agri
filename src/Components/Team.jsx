@@ -3,7 +3,7 @@ import "../Style/Team.css";
 const Team = () => {
   return (
     <div id="team">
-      <h1>TEAM</h1>
+      <h1 style={{ fontFamily: "var(--title-font-family)" }}>TEAM</h1>
       <p>
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos

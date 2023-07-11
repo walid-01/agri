@@ -3,7 +3,7 @@
     width: 95%;
     align-items: center;
     justify-content: space-between;
-    padding: 1vh 2.5%;
+    padding: 0 2.5%;
     position: sticky;
     top: 0;
     background-color: var(--lighter-purple);
@@ -11,6 +11,7 @@
 
 .nav-logo img {
     max-width: 70px;
+    padding: 10px 0;
 }
 
 .nav-items {
@@ -21,11 +22,19 @@
 }
 
 .nav-item {
-    padding: 5px 10px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
+    border-radius: 4px;
 }
 
 .nav-item:hover {
-    color: var(--purple);
+    background-color: var(--light-purple);
+    opacity: 1;
+    animation: fade 0.5s linear;
 }
+
+@keyframes fade {
+    0%  { opacity: 0.5 }
+    100% { opacity: 1 }
+  }

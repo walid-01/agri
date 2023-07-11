@@ -9,7 +9,7 @@ const Portfolio = () => {
   };
   return (
     <div id="portfolio">
-      <h1>PORTFOLIO</h1>
+      <h1 style={{ fontFamily: "var(--title-font-family)" }}>PORTFOLIO</h1>
       <p>
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
@@ -40,19 +40,28 @@ const Portfolio = () => {
         {(toggleState === 1 && (
           <div className="portfolio-items">
             <div className="portfolio-items-row">
-              <Link to="/games/game-01">
-                <div className="portfolio-item">GAME 01</div>
+              <Link to="/games/game-01" className="portfolio-item">
+                <img
+                  src="https://i.postimg.cc/GmgxJ4RP/Mechani-CT.png"
+                  alt=""
+                />
               </Link>
-              <Link to="/games/game-02">
-                <div className="portfolio-item">GAME 02</div>
+              <Link to="/games/game-02" className="portfolio-item">
+                <img
+                  src="https://i.postimg.cc/1R2RQf44/The-Escapist.png"
+                  alt=""
+                />
               </Link>
             </div>
             <div className="portfolio-items-row">
-              <Link to="/games/game-03">
-                <div className="portfolio-item">GAME 03</div>
+              <Link to="/games/game-03" className="portfolio-item">
+                <img
+                  src="https://i.postimg.cc/X7T8v3tN/OFFIRIMSlogo.png"
+                  alt=""
+                />
               </Link>
-              <Link to="/games/game-04">
-                <div className="portfolio-item">GAME 04</div>
+              <Link to="/games/game-04" className="portfolio-item">
+                <img src="https://i.postimg.cc/VLDH0H0h/ff.jpg" alt="" />
               </Link>
             </div>
           </div>
@@ -60,11 +69,17 @@ const Portfolio = () => {
           (toggleState === 2 && (
             <div className="portfolio-items">
               <div className="portfolio-items-row">
-                <Link to="/games/game-01">
-                  <div className="portfolio-item">GAME 01</div>
+                <Link to="/games/game-01" className="portfolio-item">
+                  <img
+                    src="https://i.postimg.cc/GmgxJ4RP/Mechani-CT.png"
+                    alt=""
+                  />
                 </Link>
-                <Link to="/games/game-02">
-                  <div className="portfolio-item">GAME 02</div>
+                <Link to="/games/game-02" className="portfolio-item">
+                  <img
+                    src="https://i.postimg.cc/1R2RQf44/The-Escapist.png"
+                    alt=""
+                  />
                 </Link>
               </div>
             </div>
@@ -72,11 +87,14 @@ const Portfolio = () => {
           (toggleState === 3 && (
             <div className="portfolio-items">
               <div className="portfolio-items-row">
-                <Link to="/games/game-03">
-                  <div className="portfolio-item">GAME 03</div>
+                <Link to="/games/game-03" className="portfolio-item">
+                  <img
+                    src="https://i.postimg.cc/X7T8v3tN/OFFIRIMSlogo.png"
+                    alt=""
+                  />
                 </Link>
-                <Link to="/games/game-04">
-                  <div className="portfolio-item">GAME 04</div>
+                <Link to="/games/game-04" className="portfolio-item">
+                  <img src="https://i.postimg.cc/VLDH0H0h/ff.jpg" alt="" />
                 </Link>
               </div>
             </div>

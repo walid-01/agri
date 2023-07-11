@@ -17,8 +17,32 @@
     padding: 20px;
 }
 
+.game-intro-content h1 {
+    color: var(--purple);
+}
+
+.game-intro-content h1, .game-intro-content p {
+    margin-bottom: 10px;
+}
+
+.game-intro-content h2 {
+    margin-bottom: 20px;
+}
+
 .game-intro-content > ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.desc-tag {
+    background-color: var(--lighter-purple);
+    border: 2px var(--purple) solid;
+    padding: 5px 12.5px;
+    cursor: default;
+    border-radius: 4px;
 }
 
 .game-img-container {

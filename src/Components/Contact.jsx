@@ -27,7 +27,7 @@ const Contact = () => {
   };
   return (
     <div id="contact">
-      <h1>CONTACT</h1>
+      <h1 style={{ fontFamily: "var(--title-font-family)" }}>CONTACT</h1>
       <div className="contact-content">
         <div className="contact-info">
           <div className="contact-info-item">

@@ -43,17 +43,16 @@
     width: 100%;
 }
 
-.portfolio-items-row > a {
-    width: 49%;
-}
-
 .portfolio-item {
     border: 1px black solid;
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 49%;
+}
+
+.portfolio-item img {
+    height: 100%;
 }
 
 .active-title {

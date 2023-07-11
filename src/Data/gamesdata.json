@@ -2,30 +2,47 @@
   {
     "id": "game-01",
     "name": "The MechaniCT",
-    "description": "Description",
-    "image": "",
-    "tags": ["Educational", "Computational Thinking"]
-  },
-  {
-    "id": "game-02",
-    "name": "The Escapist",
-    "description": "An educational game to teach computational thinking concepts with the help of artificial intelligence techniques",
-    "image": "https://theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png",
+    "description": "MechaniCT is a mobile game where you play as a car mechanic. Complete repair tasks within time limits to earn high scores. The game uses machine learning to assess players' skills and teach computational thinking. It's a serious game that challenges you to solve car-related problems and improve your logical reasoning and analytical skills.",
+    "image": "https://i.postimg.cc/GmgxJ4RP/Mechani-CT.png",
     "content": [
       [
         "Detail Title Goes Here",
         "Detail Text Goes Here",
-        "https://theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png"
+        "https://i.postimg.cc/9MLmrHZf/Screenshot-2023-07-11-115503.png"
       ],
       [
         "Detail Title Goes Here",
         "Detail Text Goes Here",
-        "https://theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png"
+        "https://i.postimg.cc/pr7PJQ0b/Screenshot-2023-07-11-115514.png"
       ],
       [
         "Detail Title Goes Here",
         "Detail Text Goes Here",
-        "https://theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png"
+        "https://i.postimg.cc/Y0jpFDzz/Screenshot-2023-07-11-115532.png"
+      ]
+    ],
+    "tags": ["Educational", "Computational Thinking", "Simulation", "Realistic"]
+  },
+  {
+    "id": "game-02",
+    "name": "The Escapist",
+    "description": "The Escapist is a level-based, room escape PC game that cleverly teaches computational thinking without the player's awareness. By employing machine learning, the game personalizes challenges based on the player's decision-making patterns, enhancing their skills in problem-solving, pattern recognition, and logical deduction. It offers an immersive and entertaining experience while subtly nurturing computational thinking abilities.",
+    "image": "https://i.postimg.cc/1R2RQf44/The-Escapist.png",
+    "content": [
+      [
+        "Player Experience",
+        "In the tutorial players are introduced to the game's controls and basic mechanics to ensure a smooth and enjoyable gaming experience. The tutorial takes place in a simplified room, designed specifically for learning purposes.",
+        "https://i.postimg.cc/TwsJ7kTH/Screenshot-2023-07-06-210151.png"
+      ],
+      [
+        "Puzzle types",
+        "There are different mechanics like doors (with variants like a normal door, key door, lever door, …) pushable objects, pickable items, and movable crates, … . there are also pickable items like tools, keys, and other useful stuff, mixing these mechanics and items together we get different set of puzzles",
+        "https://i.postimg.cc/RhnQjcFC/Screenshot-2023-07-06-205918.png"
+      ],
+      [
+        "Machine Learning",
+        "Machine learning plays a significant role in personalizing gameplay based on the player's performance. The game collects data on the player's decision-making patterns, problem-solving strategies, and cognitive strengths as they progress through the levels.",
+        "https://i.postimg.cc/q70byZ7s/Screenshot-2023-07-06-210325.png"
       ]
     ],
     "tags": [
@@ -38,16 +55,50 @@
   },
   {
     "id": "game-03",
-    "name": "**Name**",
+    "name": "OFFIRISM",
     "description": "Description",
-    "image": "",
-    "tags": ["", "", ""]
+    "image": "https://i.postimg.cc/X7T8v3tN/OFFIRIMSlogo.png",
+    "content": [
+      [
+        "Detail Title Goes Here",
+        "Detail Text Goes Here",
+        "https://i.postimg.cc/gjWSrpx6/photo2.png"
+      ],
+      [
+        "Detail Title Goes Here",
+        "Detail Text Goes Here",
+        "https://i.postimg.cc/qvb5wW59/photo3.png"
+      ],
+      [
+        "Detail Title Goes Here",
+        "Detail Text Goes Here",
+        "https://i.postimg.cc/cHYksCLS/photo4.png"
+      ]
+    ],
+    "tags": ["Psychology", "Puzzle", "Room Escape", "Problem Solving"]
   },
   {
     "id": "game-04",
-    "name": "**Name**",
-    "description": "Description",
-    "image": "",
-    "tags": ["", "", ""]
+    "name": "OFFU",
+    "description": "Offu In our game, you will be in a company where a portal has opened, allowing monsters to enter. Your only mission is to move and confront these monsters. You will use arrow keys to move and receive tasks to complete in order to obtain a pistol. You need to use strategic and tactical skills to win the confrontations and improve your character using earned points. The game aims to train employees in the work environment and help managers identify their abilities and guide them to suitable positions.",
+    "image": "https://i.postimg.cc/VLDH0H0h/ff.jpg",
+    "content": [
+      [
+        "Human Resources (HR)",
+        "Responsible for managing employee recruitment, benefits, training, and personnel policies. Finance and Accounting: Handles financial planning, budgeting, accounting, and financial reporting.",
+        "https://i.postimg.cc/Gm6d0pKd/scared.png"
+      ],
+      [
+        "Psychology education",
+        "Within the game aims to foster a sense of responsibility among players by assigning them the sole task of eliminating monsters. Simultaneously, it nurtures the value of cooperation, an essential trait within a company. Moreover, it cultivates empathy, a fundamental aspect of human ethics.",
+        "https://i.postimg.cc/fbQpjS5t/monster.png"
+      ],
+      [
+        "Environment  eduction",
+        "Here, the player will learn how to organize the office, such as putting the broom in its designated place to remove any harm from the way .",
+        "https://i.postimg.cc/Z5W4DNrw/broom.png"
+      ]
+    ],
+    "tags": ["Psychology", "Puzzle", "Room Escape", "Problem Solving"]
   }
 ]

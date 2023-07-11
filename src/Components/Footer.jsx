@@ -5,7 +5,7 @@ const Footer = () => {
     <div id="footer">
       <div className="useful-links">
         <div className="links-grp">
-          <h1>IGRA</h1>
+          <h1 style={{ fontFamily: "var(--title-font-family)" }}>AGRI</h1>
           <p>Street Address</p>
           <p>Annaba, Annaba 23000</p>
           <p>Algeria</p>
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="copyright-container">
         <p>
-          © Copyright <b>IGRA</b> - All Rights Reserved
+          © Copyright <b>AGRI</b> - All Rights Reserved
         </p>
       </div>
     </div>

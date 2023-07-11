@@ -12,12 +12,16 @@ const Game = () => {
           <img src={game.image} alt="Game Thumbnail" />
         </div>
         <div className="game-intro-content">
-          <h1>{game.name}</h1>
+          <h1 style={{ fontFamily: "var(--title-font-family)" }}>
+            {game.name}
+          </h1>
           <h2>{game.description}</h2>
           <p>Tags:</p>
-          <ul id="desc">
+          <ul>
             {game.tags.map((tag, index) => (
-              <li key={index}>{tag}</li>
+              <li className="desc-tag" key={index}>
+                {tag}
+              </li>
             ))}
           </ul>
         </div>
@@ -33,7 +37,9 @@ const Game = () => {
               <img src={item[2]} alt="Game Sample" />
             </div>
             <div className="game-detail-text">
-              <h2>{item[0]}</h2>
+              <h2 style={{ fontFamily: "var(--title-font-family)" }}>
+                {item[0]}
+              </h2>
               <p>{item[1]}</p>
             </div>
           </div>
