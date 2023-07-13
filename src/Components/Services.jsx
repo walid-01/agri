@@ -5,7 +5,7 @@ const Services = () => {
     <div id="services">
       <h1 style={{ fontFamily: "var(--title-font-family)" }}>SERVICES</h1>
       <p>
-        Our company, "IgrA: AGRI with AI" stands out by offering an AI-based
+        Our company, "AgrI: IGRA with AI" stands out by offering an AI-based
         serious game system that brings several significant services
       </p>
       <div className="services-items">

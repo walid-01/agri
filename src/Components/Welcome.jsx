@@ -5,7 +5,7 @@ const Welcome = () => {
     <div id="welcome">
       <div className="welcome-text welcome-part">
         <h1 style={{ fontFamily: "var(--title-font-family)" }}>
-          IgrA: AGRI with AI
+          AgrI: IGRA with AI
         </h1>
         <p>
           the development of serious games integrated with artificial
