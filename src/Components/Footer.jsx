@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Style/Footer.css";
 
 const Footer = () => {
@@ -28,10 +29,30 @@ const Footer = () => {
         </div>
         <div className="links-grp">
           <h3> Our Socials</h3>
-          <a href="/#contact">Twitter</a>
-          <a href="/#contact">LinkedIn</a>
-          <a href="/#contact">Facebook</a>
-          <a href="/#contact">Instagram</a>
+          <Link
+            to="https://www.facebook.com/profile.php?id=100094491979796"
+            target="_blank"
+          >
+            Twitter
+          </Link>
+          <Link
+            to="https://www.facebook.com/profile.php?id=100094491979796"
+            target="_blank"
+          >
+            LinkedIn
+          </Link>
+          <Link
+            to="https://www.linkedin.com/company/agri-igra-with-ai/"
+            target="_blank"
+          >
+            Facebook
+          </Link>
+          <Link
+            to="https://www.facebook.com/profile.php?id=100094491979796"
+            target="_blank"
+          >
+            Instagram
+          </Link>
         </div>
       </div>
       <div className="copyright-container">
