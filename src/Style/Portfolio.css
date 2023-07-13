@@ -26,7 +26,7 @@
 }
 
 .portfolio-items {
-    height: 50vh;
+    height: 60vh;
     width: 80%;
     margin: auto;
     display: flex;
@@ -44,11 +44,12 @@
 }
 
 .portfolio-item {
-    border: 1px black solid;
+    border: 2px var(--purple) solid;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 49%;
+    width: 45%;
 }
 
 .portfolio-item img {

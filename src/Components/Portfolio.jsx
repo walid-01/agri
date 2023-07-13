@@ -11,10 +11,11 @@ const Portfolio = () => {
     <div id="portfolio">
       <h1 style={{ fontFamily: "var(--title-font-family)" }}>PORTFOLIO</h1>
       <p>
-        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-        aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-        quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-        sit in iste officiis commodi quidem hic quas.
+        In our comany , we take pride in offering an extensive collection of
+        non-personalized games that cater to a diverse range of interests. With
+        a focus on two distinct domains, we have developed four captivating
+        games that provide entertainment and engagement for users from various
+        backgrounds.
       </p>
       <div className="portfolio-content">
         <div className="portfolio-navbar">
@@ -61,7 +62,7 @@ const Portfolio = () => {
                 />
               </Link>
               <Link to="/games/game-04" className="portfolio-item">
-                <img src="https://i.postimg.cc/VLDH0H0h/ff.jpg" alt="" />
+                <img src="https://i.postimg.cc/9fdDWX58/introreal.png" alt="" />
               </Link>
             </div>
           </div>
@@ -94,7 +95,10 @@ const Portfolio = () => {
                   />
                 </Link>
                 <Link to="/games/game-04" className="portfolio-item">
-                  <img src="https://i.postimg.cc/VLDH0H0h/ff.jpg" alt="" />
+                  <img
+                    src="https://i.postimg.cc/9fdDWX58/introreal.png"
+                    alt=""
+                  />
                 </Link>
               </div>
             </div>

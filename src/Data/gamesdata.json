@@ -56,22 +56,22 @@
   {
     "id": "game-03",
     "name": "OFFIRISM",
-    "description": "Description",
+    "description": "Offirism  is an interactive educational game designed to train new employees on how to behave and adapt in a bustling office environment. As a new trainee/player, the player will navigate through various challenges and tasks to help office workers meet deadlines and complete their daily tasks. Through engaging gameplay and interactive scenarios, player will learn important office etiquette, teamwork and problem-solving",
     "image": "https://i.postimg.cc/X7T8v3tN/OFFIRIMSlogo.png",
     "content": [
       [
-        "Detail Title Goes Here",
-        "Detail Text Goes Here",
+        "Problem-Solving",
+        "The challenges presented in each room, such as opening locked doors and finding missing items, encourage the player to think critically and employ problem-solving skills. This mirrors real-world situations where employees need to overcome obstacles and find creative solutions",
         "https://i.postimg.cc/gjWSrpx6/photo2.png"
       ],
       [
-        "Detail Title Goes Here",
-        "Detail Text Goes Here",
+        "Following Instructions",
+        "The player must follow instructions given by the secretary, such as collecting dust or arranging chairs. This reinforces the significance of following directions and adhering to procedures in an office environment",
         "https://i.postimg.cc/qvb5wW59/photo3.png"
       ],
       [
-        "Detail Title Goes Here",
-        "Detail Text Goes Here",
+        "Collaboration",
+        "The player read the conflicts between NPCsThis promotes the understanding that cooperation and working together are vital for achieving shared goals in the workplace",
         "https://i.postimg.cc/cHYksCLS/photo4.png"
       ]
     ],
@@ -81,7 +81,7 @@
     "id": "game-04",
     "name": "OFFU",
     "description": "Offu In our game, you will be in a company where a portal has opened, allowing monsters to enter. Your only mission is to move and confront these monsters. You will use arrow keys to move and receive tasks to complete in order to obtain a pistol. You need to use strategic and tactical skills to win the confrontations and improve your character using earned points. The game aims to train employees in the work environment and help managers identify their abilities and guide them to suitable positions.",
-    "image": "https://i.postimg.cc/VLDH0H0h/ff.jpg",
+    "image": "https://i.postimg.cc/9fdDWX58/introreal.png",
     "content": [
       [
         "Human Resources (HR)",

@@ -9,25 +9,34 @@
 }
 
 #services > p, #services > h1 {
-    margin-bottom: 10px;
     text-align: center;
+}
+
+#services > h1 {
+    margin-bottom: 10px;
+}
+
+#services > p {
+    margin-bottom: 20px;
 }
 
 .services-items-row {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     margin-bottom: 30px;
     gap: 30px;
+
 }
 
 .services-item {
     background-color: var(--lighter-purple);
-    padding: 20px;
-    height: 75px;
+    padding: 20px 25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     border-radius: 5px;
 }
 
+.services-item > h2 {
+    margin-bottom: 7.5px;
+}

@@ -5,43 +5,44 @@ const About = () => {
     <div id="about">
       <div className="about-intro">
         <h1 style={{ fontFamily: "var(--title-font-family)" }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Revolutionizing the Gaming Industry: Innovating Interactive and
+          Educational Experiences with AI Technology
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-          quasi sed debitis deleniti, quisquam nemo impedit rerum deserunt illo
-          optio vitae eaque, omnis odio consectetur architecto facere similique
-          commodi sunt quibusdam, iste modi alias possimus? Id dicta quos alias
-          ullam repellat sed optio vel! Placeat ea eligendi inventore non
-          blanditiis velit consectetur earum totam, atque voluptatibus dolorem
-          dicta, dolore, quibusdam eveniet. Illum odit officia obcaecati,
-          nesciunt culpa cumque facere rem.
+          Our vision is to create an application that revolutionizes the gaming
+          industry in Algeria and globally. With our innovative approach, we aim
+          to transform interactive and educational gaming experiences by
+          incorporating AI technology.
         </p>
       </div>
       <div className="about-items">
         <div className="about-item">
-          <h2>Lorem, ipsum dolor</h2>
+          <h2>Expertise in Industrial Engineering and Operations Management</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            sunt corporis reprehenderit inventore quisquam repellendus placeat
-            nobis voluptas dolor dolores.
+            Comprised of a team of four specialized industrial engineering
+            students, we have gained a solid understanding of industrial
+            processes and operations management through our comprehensive
+            five-year academic program
           </p>
         </div>
         <div className="about-item">
-          <h2>Lorem, ipsum dolor</h2>
+          <h2>
+            Serving Diverse Industries with Operations Management and AI
+            Solutions
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            repellat architecto odio voluptatibus labore. Error quis excepturi
-            deserunt eaque hic explicabo, numquam, fugit voluptates nihil
-            ducimus maiores repudiandae saepe? Possimus.
+            Our company aims to serve diverse industries since the principles of
+            operations management and AI are applicable across a wide range of
+            businesses
           </p>
         </div>
         <div className="about-item">
-          <h2>Lorem, ipsum dolor</h2>
+          <h2>
+            Global Expansion and Collaborative Solutions for Enhanced Operations
+          </h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-            dolore praesentium, magnam dolorum velit hic placeat, dicta, quaerat
-            explicabo ipsum eum esse vitae odit odio.
+            We intend to expand geographically and collaborate with companies
+            worldwide to enhance their operations through our application
           </p>
         </div>
       </div>
